@@ -1,0 +1,241 @@
+hospital_name,year,budget_allocated,budget_spent,remark
+Ranchi Civil Hospital,2023,5372489,2738830,Underutilized
+Ranchi Civil Hospital,2024,2938559,2259563,Underutilized
+Coimbatore Civil Hospital,2023,6722053,6688286,On Track
+Coimbatore Civil Hospital,2024,1813412,1727493,On Track
+Pune Civil Hospital,2023,7667734,4821013,Underutilized
+Pune Civil Hospital,2024,5754228,4738751,On Track
+Jaipur Civil Hospital,2023,7148877,6900250,On Track
+Jaipur Civil Hospital,2024,6053760,3363174,Underutilized
+Guwahati Civil Hospital,2023,7855722,4604960,Underutilized
+Guwahati Civil Hospital,2024,2396474,2129219,On Track
+Bangalore Civil Hospital,2023,4129923,2595545,Underutilized
+Bangalore Civil Hospital,2024,3628959,3050323,On Track
+Ahmedabad Civil Hospital,2023,1382525,1303991,On Track
+Ahmedabad Civil Hospital,2024,4326305,2248632,Underutilized
+Vadodara Civil Hospital,2023,3521931,2094051,Underutilized
+Vadodara Civil Hospital,2024,2113556,1080453,Underutilized
+Ranchi Civil Hospital,2023,3396157,3396106,On Track
+Ranchi Civil Hospital,2024,5664089,4072433,Underutilized
+Chennai Civil Hospital,2023,3433554,1975995,Underutilized
+Chennai Civil Hospital,2024,5130914,4358507,On Track
+Vadodara Civil Hospital,2023,7724469,4165485,Underutilized
+Vadodara Civil Hospital,2024,1338016,1039933,Underutilized
+Guwahati Civil Hospital,2023,2375350,1853155,Underutilized
+Guwahati Civil Hospital,2024,3806277,3295627,On Track
+Indore Civil Hospital,2023,3742696,3560579,On Track
+Indore Civil Hospital,2024,7954545,4122255,Underutilized
+Delhi Civil Hospital,2023,4159615,3786656,On Track
+Delhi Civil Hospital,2024,3270580,2915124,On Track
+Mumbai Civil Hospital,2023,2901153,2599765,On Track
+Mumbai Civil Hospital,2024,2264559,1171163,Underutilized
+Patna Civil Hospital,2023,7406387,7323281,On Track
+Patna Civil Hospital,2024,3422414,3260895,On Track
+Surat Civil Hospital,2023,4351617,3933641,On Track
+Surat Civil Hospital,2024,5297251,3604210,Underutilized
+Coimbatore Civil Hospital,2023,2460914,2329615,On Track
+Coimbatore Civil Hospital,2024,4408122,2432954,Underutilized
+Patna Civil Hospital,2023,2779751,1896893,Underutilized
+Patna Civil Hospital,2024,6434190,4306803,Underutilized
+Kolkata Civil Hospital,2023,2374351,1384216,Underutilized
+Kolkata Civil Hospital,2024,4646623,2341425,Underutilized
+Coimbatore Civil Hospital,2023,5744274,2992576,Underutilized
+Coimbatore Civil Hospital,2024,2694801,1623710,Underutilized
+Kolkata Civil Hospital,2023,2507832,1884050,Underutilized
+Kolkata Civil Hospital,2024,1513983,1023957,Underutilized
+Mumbai Civil Hospital,2023,2537096,2484380,On Track
+Mumbai Civil Hospital,2024,7410571,5511473,Underutilized
+Nagpur Civil Hospital,2023,2248615,1131059,Underutilized
+Nagpur Civil Hospital,2024,6398666,3348651,Underutilized
+Bangalore Civil Hospital,2023,5219285,4269854,On Track
+Bangalore Civil Hospital,2024,4743376,2682159,Underutilized
+Coimbatore Civil Hospital,2023,2389457,1684027,Underutilized
+Coimbatore Civil Hospital,2024,3863184,2843152,Underutilized
+Bhopal Civil Hospital,2023,2108036,2056816,On Track
+Bhopal Civil Hospital,2024,6135690,3449501,Underutilized
+Ranchi Civil Hospital,2023,4100219,3102800,Underutilized
+Ranchi Civil Hospital,2024,2341160,1658421,Underutilized
+Ahmedabad Civil Hospital,2023,7154172,5979926,On Track
+Ahmedabad Civil Hospital,2024,5065455,3406813,Underutilized
+Vishakhapatnam Civil Hospital,2023,7001787,3922239,Underutilized
+Vishakhapatnam Civil Hospital,2024,4660257,3176018,Underutilized
+Patna Civil Hospital,2023,7716302,4586190,Underutilized
+Patna Civil Hospital,2024,2129222,2061633,On Track
+Delhi Civil Hospital,2023,7192068,4637982,Underutilized
+Delhi Civil Hospital,2024,2446020,1760989,Underutilized
+Chennai Civil Hospital,2023,2407968,2285749,On Track
+Chennai Civil Hospital,2024,6639259,5435660,On Track
+Hyderabad Civil Hospital,2023,5556871,3102439,Underutilized
+Hyderabad Civil Hospital,2024,2969141,1988945,Underutilized
+Chennai Civil Hospital,2023,5399742,3651034,Underutilized
+Chennai Civil Hospital,2024,6763792,6338841,On Track
+Kolkata Civil Hospital,2023,4531580,3924344,On Track
+Kolkata Civil Hospital,2024,5398758,5054071,On Track
+Ahmedabad Civil Hospital,2023,1608025,1057370,Underutilized
+Ahmedabad Civil Hospital,2024,3101324,2230214,Underutilized
+Indore Civil Hospital,2023,7435057,6085588,On Track
+Indore Civil Hospital,2024,3803381,2941240,Underutilized
+Jaipur Civil Hospital,2023,2586191,1496598,Underutilized
+Jaipur Civil Hospital,2024,7656040,6461447,On Track
+Kolkata Civil Hospital,2023,1248304,664249,Underutilized
+Kolkata Civil Hospital,2024,4663790,2592585,Underutilized
+Guwahati Civil Hospital,2023,3644014,2219676,Underutilized
+Guwahati Civil Hospital,2024,1419199,1404847,On Track
+Vadodara Civil Hospital,2023,3456632,2116535,Underutilized
+Vadodara Civil Hospital,2024,3250047,3034018,On Track
+Bhopal Civil Hospital,2023,3138393,1590453,Underutilized
+Bhopal Civil Hospital,2024,5842358,5145479,On Track
+Ranchi Civil Hospital,2023,3477427,2150258,Underutilized
+Ranchi Civil Hospital,2024,7087538,5072760,Underutilized
+Ranchi Civil Hospital,2023,1956940,1145503,Underutilized
+Ranchi Civil Hospital,2024,3890454,2761518,Underutilized
+Vishakhapatnam Civil Hospital,2023,2193635,1736573,Underutilized
+Vishakhapatnam Civil Hospital,2024,5453144,3818676,Underutilized
+Delhi Civil Hospital,2023,2661899,2279687,On Track
+Delhi Civil Hospital,2024,1467707,762392,Underutilized
+Surat Civil Hospital,2023,3977530,2474465,Underutilized
+Surat Civil Hospital,2024,2183937,1256216,Underutilized
+Pune Civil Hospital,2023,4184226,2129986,Underutilized
+Pune Civil Hospital,2024,4010142,3979251,On Track
+Hyderabad Civil Hospital,2023,3667373,2620676,Underutilized
+Hyderabad Civil Hospital,2024,3054850,2656353,On Track
+Ahmedabad Civil Hospital,2023,2287142,1298888,Underutilized
+Ahmedabad Civil Hospital,2024,1180661,620789,Underutilized
+Ranchi Civil Hospital,2023,2475911,1682294,Underutilized
+Ranchi Civil Hospital,2024,2863270,2152133,Underutilized
+Bangalore Civil Hospital,2023,6207065,4176935,Underutilized
+Bangalore Civil Hospital,2024,7379860,3985454,Underutilized
+Jaipur Civil Hospital,2023,6410738,3208484,Underutilized
+Jaipur Civil Hospital,2024,4641121,2798558,Underutilized
+Lucknow Civil Hospital,2023,6515405,5085778,Underutilized
+Lucknow Civil Hospital,2024,1679181,1565073,On Track
+Indore Civil Hospital,2023,7098149,5099982,Underutilized
+Indore Civil Hospital,2024,5170557,4362611,On Track
+Jaipur Civil Hospital,2023,5683770,4418297,Underutilized
+Jaipur Civil Hospital,2024,7439718,6065367,On Track
+Nagpur Civil Hospital,2023,6407474,4306098,Underutilized
+Nagpur Civil Hospital,2024,3743751,3365204,On Track
+Kolkata Civil Hospital,2023,3892998,3641835,On Track
+Kolkata Civil Hospital,2024,1978853,1275971,Underutilized
+Coimbatore Civil Hospital,2023,5455767,3749090,Underutilized
+Coimbatore Civil Hospital,2024,1540425,805056,Underutilized
+"Diaz, Young and Andrews Hospital",2023,2843028,1981578,Underutilized
+"Diaz, Young and Andrews Hospital",2024,3735212,3169767,On Track
+Taylor-Taylor Hospital,2023,1859568,1213928,Underutilized
+Taylor-Taylor Hospital,2024,3573736,3089929,On Track
+"Martin, Moran and Farmer Hospital",2023,6241760,4140532,Underutilized
+"Martin, Moran and Farmer Hospital",2024,2783794,2319393,On Track
+Fry-Martinez Hospital,2023,6579731,5155088,Underutilized
+Fry-Martinez Hospital,2024,5378858,2760134,Underutilized
+Johnson and Sons Hospital,2023,6049300,4123238,Underutilized
+Johnson and Sons Hospital,2024,1651261,1640077,On Track
+Lawson Ltd Hospital,2023,4216389,2619688,Underutilized
+Lawson Ltd Hospital,2024,7188339,3668410,Underutilized
+Douglas Group Hospital,2023,3368091,2720427,On Track
+Douglas Group Hospital,2024,7413654,7091794,On Track
+Jackson-Berg Hospital,2023,6905142,5304610,Underutilized
+Jackson-Berg Hospital,2024,4572029,3631961,Underutilized
+Bishop-Watson Hospital,2023,5275284,3624062,Underutilized
+Bishop-Watson Hospital,2024,6074879,5946892,On Track
+"Beasley, Rangel and Erickson Hospital",2023,5484425,3186140,Underutilized
+"Beasley, Rangel and Erickson Hospital",2024,3403630,2537270,Underutilized
+Green Ltd Hospital,2023,7502369,4625333,Underutilized
+Green Ltd Hospital,2024,1571442,1405460,On Track
+Garcia PLC Hospital,2023,3346975,2625113,Underutilized
+Garcia PLC Hospital,2024,7230214,5670666,Underutilized
+Mccoy-Hudson Hospital,2023,3839457,3168281,On Track
+Mccoy-Hudson Hospital,2024,1714040,1587379,On Track
+Morgan-Pierce Hospital,2023,1166408,633068,Underutilized
+Morgan-Pierce Hospital,2024,5723655,3212530,Underutilized
+Williams-Martinez Hospital,2023,6320406,3704205,Underutilized
+Williams-Martinez Hospital,2024,4439496,3026617,Underutilized
+Adams-Rivera Hospital,2023,4551454,2350026,Underutilized
+Adams-Rivera Hospital,2024,1164344,709430,Underutilized
+Grant-Clark Hospital,2023,7705369,5196636,Underutilized
+Grant-Clark Hospital,2024,2829285,1841785,Underutilized
+"Mitchell, Hammond and Kidd Hospital",2023,6601632,5985862,On Track
+"Mitchell, Hammond and Kidd Hospital",2024,1896911,961792,Underutilized
+Jones Inc Hospital,2023,4604712,3505620,Underutilized
+Jones Inc Hospital,2024,2536433,1550987,Underutilized
+Fernandez-Harris Hospital,2023,7869875,7180991,On Track
+Fernandez-Harris Hospital,2024,6794161,4600179,Underutilized
+Winters-Clark Hospital,2023,2486776,2114484,On Track
+Winters-Clark Hospital,2024,1878147,1263884,Underutilized
+Sanchez Ltd Hospital,2023,2549637,2152764,On Track
+Sanchez Ltd Hospital,2024,4239285,2523502,Underutilized
+Patrick and Sons Hospital,2023,1651692,1107891,Underutilized
+Patrick and Sons Hospital,2024,5415652,3982428,Underutilized
+Parrish Group Hospital,2023,3098753,3074457,On Track
+Parrish Group Hospital,2024,2327972,1738871,Underutilized
+"Perez, Miller and Smith Hospital",2023,7103635,4070403,Underutilized
+"Perez, Miller and Smith Hospital",2024,1294660,1281616,On Track
+"Simmons, Moore and Collins Hospital",2023,7949162,4267505,Underutilized
+"Simmons, Moore and Collins Hospital",2024,3103968,2544909,On Track
+"Rogers, Wright and Rivera Hospital",2023,4281263,2679310,Underutilized
+"Rogers, Wright and Rivera Hospital",2024,3439050,2973063,On Track
+Johnson LLC Hospital,2023,5063008,3443791,Underutilized
+Johnson LLC Hospital,2024,7456017,5831912,Underutilized
+"Duffy, Neal and Pena Hospital",2023,3572215,3523517,On Track
+"Duffy, Neal and Pena Hospital",2024,4757062,3436681,Underutilized
+Guerra-Leonard Hospital,2023,5195181,3658578,Underutilized
+Guerra-Leonard Hospital,2024,6322726,3934656,Underutilized
+Allen-Harper Hospital,2023,4854121,3615010,Underutilized
+Allen-Harper Hospital,2024,2250044,1524162,Underutilized
+"Callahan, Lewis and Anderson Hospital",2023,3760846,2950796,Underutilized
+"Callahan, Lewis and Anderson Hospital",2024,2080045,1880953,On Track
+Wallace PLC Hospital,2023,5215205,3572096,Underutilized
+Wallace PLC Hospital,2024,6147693,4563080,Underutilized
+"Thornton, Booth and Reed Hospital",2023,6048853,5188879,On Track
+"Thornton, Booth and Reed Hospital",2024,1592001,1033811,Underutilized
+"Scott, Black and Murphy Hospital",2023,5662266,4655752,On Track
+"Scott, Black and Murphy Hospital",2024,7554485,4383666,Underutilized
+Saunders PLC Hospital,2023,5805932,2904373,Underutilized
+Saunders PLC Hospital,2024,3833332,3436929,On Track
+"Foster, Cooley and Snyder Hospital",2023,7588459,6871276,On Track
+"Foster, Cooley and Snyder Hospital",2024,4351666,2521229,Underutilized
+"Cummings, Gonzalez and Lee Hospital",2023,1088448,986819,On Track
+"Cummings, Gonzalez and Lee Hospital",2024,1741747,1317312,Underutilized
+Diaz-George Hospital,2023,4841135,2867922,Underutilized
+Diaz-George Hospital,2024,1701783,855917,Underutilized
+"Williams, Rangel and Robinson Hospital",2023,2636639,1503043,Underutilized
+"Williams, Rangel and Robinson Hospital",2024,7515297,4771404,Underutilized
+"Griffith, Frazier and Fields Hospital",2023,3505835,2154871,Underutilized
+"Griffith, Frazier and Fields Hospital",2024,1960766,1134103,Underutilized
+"Hughes, Moore and Skinner Hospital",2023,7135390,4649048,Underutilized
+"Hughes, Moore and Skinner Hospital",2024,6939754,4772232,Underutilized
+"Holloway, Smith and Mccormick Hospital",2023,2453182,2390450,On Track
+"Holloway, Smith and Mccormick Hospital",2024,6675806,6027092,On Track
+Johnson PLC Hospital,2023,2593473,1483377,Underutilized
+Johnson PLC Hospital,2024,6170888,3553358,Underutilized
+Daniel Group Hospital,2023,3714866,1910159,Underutilized
+Daniel Group Hospital,2024,2828849,2038895,Underutilized
+Gray Ltd Hospital,2023,4393340,3600831,On Track
+Gray Ltd Hospital,2024,5227316,2793258,Underutilized
+"Collins, Pratt and Giles Hospital",2023,4716208,3407136,Underutilized
+"Collins, Pratt and Giles Hospital",2024,5022513,4785664,On Track
+"Bailey, Webb and Le Hospital",2023,6171947,4551645,Underutilized
+"Bailey, Webb and Le Hospital",2024,2830617,2145341,Underutilized
+James-Chapman Hospital,2023,2096539,1093375,Underutilized
+James-Chapman Hospital,2024,6897723,4812376,Underutilized
+Hayes-Scott Hospital,2023,6836456,5738990,On Track
+Hayes-Scott Hospital,2024,6647548,4294942,Underutilized
+"Brown, Evans and Ward Hospital",2023,2750696,2692490,On Track
+"Brown, Evans and Ward Hospital",2024,5388268,5231104,On Track
+"Hooper, Rodriguez and Jordan Hospital",2023,4562270,4278483,On Track
+"Hooper, Rodriguez and Jordan Hospital",2024,2372335,1915033,On Track
+"Gates, Johnson and Snyder Hospital",2023,5675667,3578731,Underutilized
+"Gates, Johnson and Snyder Hospital",2024,7111005,5727701,On Track
+Marshall-Williams Hospital,2023,7700801,6089740,Underutilized
+Marshall-Williams Hospital,2024,3573311,1829739,Underutilized
+Frazier and Sons Hospital,2023,1137702,929603,On Track
+Frazier and Sons Hospital,2024,2281939,1410059,Underutilized
+Martinez-Edwards Hospital,2023,4658391,2521261,Underutilized
+Martinez-Edwards Hospital,2024,1572950,1346346,On Track
+"Boone, Payne and Salinas Hospital",2023,3680697,3253015,On Track
+"Boone, Payne and Salinas Hospital",2024,5681395,4069177,Underutilized
+Reyes-Richmond Hospital,2023,7996159,5520290,Underutilized
+Reyes-Richmond Hospital,2024,2451128,2386476,On Track
+Kelley Inc Hospital,2023,3759051,3332931,On Track
+Kelley Inc Hospital,2024,7485189,6631364,On Track
+Rodriguez PLC Hospital,2023,1843220,1683614,On Track
+Rodriguez PLC Hospital,2024,5607004,4043274,Underutilized

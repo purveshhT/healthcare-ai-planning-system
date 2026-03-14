@@ -1,0 +1,121 @@
+hospital_id,hospital_name,city,bed_capacity,department_count
+H001,Ranchi Civil Hospital,Ranchi,489,11
+H002,Coimbatore Civil Hospital,Coimbatore,283,12
+H003,Pune Civil Hospital,Pune,236,7
+H004,Jaipur Civil Hospital,Jaipur,846,17
+H005,Guwahati Civil Hospital,Guwahati,800,22
+H006,Bangalore Civil Hospital,Bangalore,738,20
+H007,Ahmedabad Civil Hospital,Ahmedabad,531,24
+H008,Vadodara Civil Hospital,Vadodara,321,16
+H009,Ranchi Civil Hospital,Ranchi,982,11
+H010,Chennai Civil Hospital,Chennai,572,10
+H011,Vadodara Civil Hospital,Vadodara,446,7
+H012,Guwahati Civil Hospital,Guwahati,793,7
+H013,Indore Civil Hospital,Indore,423,17
+H014,Delhi Civil Hospital,Delhi,375,22
+H015,Mumbai Civil Hospital,Mumbai,535,11
+H016,Patna Civil Hospital,Patna,647,7
+H017,Surat Civil Hospital,Surat,631,11
+H018,Coimbatore Civil Hospital,Coimbatore,573,6
+H019,Patna Civil Hospital,Patna,232,11
+H020,Kolkata Civil Hospital,Kolkata,865,19
+H021,Coimbatore Civil Hospital,Coimbatore,281,21
+H022,Kolkata Civil Hospital,Kolkata,137,8
+H023,Mumbai Civil Hospital,Mumbai,275,20
+H024,Nagpur Civil Hospital,Nagpur,183,18
+H025,Bangalore Civil Hospital,Bangalore,246,14
+H026,Coimbatore Civil Hospital,Coimbatore,105,17
+H027,Bhopal Civil Hospital,Bhopal,239,21
+H028,Ranchi Civil Hospital,Ranchi,305,6
+H029,Ahmedabad Civil Hospital,Ahmedabad,553,13
+H030,Vishakhapatnam Civil Hospital,Vishakhapatnam,513,9
+H031,Patna Civil Hospital,Patna,811,20
+H032,Delhi Civil Hospital,Delhi,234,24
+H033,Chennai Civil Hospital,Chennai,722,18
+H034,Hyderabad Civil Hospital,Hyderabad,198,8
+H035,Chennai Civil Hospital,Chennai,403,10
+H036,Kolkata Civil Hospital,Kolkata,519,9
+H037,Ahmedabad Civil Hospital,Ahmedabad,674,15
+H038,Indore Civil Hospital,Indore,917,12
+H039,Jaipur Civil Hospital,Jaipur,220,16
+H040,Kolkata Civil Hospital,Kolkata,794,7
+H041,Guwahati Civil Hospital,Guwahati,394,5
+H042,Vadodara Civil Hospital,Vadodara,952,6
+H043,Bhopal Civil Hospital,Bhopal,321,17
+H044,Ranchi Civil Hospital,Ranchi,444,17
+H045,Ranchi Civil Hospital,Ranchi,524,16
+H046,Vishakhapatnam Civil Hospital,Vishakhapatnam,194,10
+H047,Delhi Civil Hospital,Delhi,481,17
+H048,Surat Civil Hospital,Surat,335,14
+H049,Pune Civil Hospital,Pune,769,14
+H050,Hyderabad Civil Hospital,Hyderabad,995,15
+H051,Ahmedabad Civil Hospital,Ahmedabad,882,12
+H052,Ranchi Civil Hospital,Ranchi,403,19
+H053,Bangalore Civil Hospital,Bangalore,548,18
+H054,Jaipur Civil Hospital,Jaipur,171,21
+H055,Lucknow Civil Hospital,Lucknow,801,15
+H056,Indore Civil Hospital,Indore,646,9
+H057,Jaipur Civil Hospital,Jaipur,541,14
+H058,Nagpur Civil Hospital,Nagpur,774,24
+H059,Kolkata Civil Hospital,Kolkata,389,17
+H060,Coimbatore Civil Hospital,Coimbatore,983,24
+H061,"Diaz, Young and Andrews Hospital",Surat,299,17
+H062,Taylor-Taylor Hospital,Bhopal,302,16
+H063,"Martin, Moran and Farmer Hospital",Mumbai,783,16
+H064,Fry-Martinez Hospital,Lucknow,970,11
+H065,Johnson and Sons Hospital,Kolkata,908,25
+H066,Lawson Ltd Hospital,Jaipur,772,18
+H067,Douglas Group Hospital,Pune,518,16
+H068,Jackson-Berg Hospital,Ranchi,103,8
+H069,Bishop-Watson Hospital,Guwahati,644,11
+H070,"Beasley, Rangel and Erickson Hospital",Mumbai,634,14
+H071,Green Ltd Hospital,Kolkata,623,19
+H072,Garcia PLC Hospital,Ahmedabad,370,18
+H073,Mccoy-Hudson Hospital,Surat,673,21
+H074,Morgan-Pierce Hospital,Coimbatore,886,25
+H075,Williams-Martinez Hospital,Coimbatore,887,14
+H076,Adams-Rivera Hospital,Ahmedabad,856,5
+H077,Grant-Clark Hospital,Hyderabad,925,14
+H078,"Mitchell, Hammond and Kidd Hospital",Bangalore,694,6
+H079,Jones Inc Hospital,Delhi,526,14
+H080,Fernandez-Harris Hospital,Patna,670,25
+H081,Winters-Clark Hospital,Vadodara,688,14
+H082,Sanchez Ltd Hospital,Ahmedabad,874,8
+H083,Patrick and Sons Hospital,Ranchi,508,10
+H084,Parrish Group Hospital,Jaipur,571,15
+H085,"Perez, Miller and Smith Hospital",Chennai,998,9
+H086,"Simmons, Moore and Collins Hospital",Surat,988,17
+H087,"Rogers, Wright and Rivera Hospital",Nagpur,675,10
+H088,Johnson LLC Hospital,Patna,356,11
+H089,"Duffy, Neal and Pena Hospital",Jaipur,574,23
+H090,Guerra-Leonard Hospital,Ranchi,288,20
+H091,Allen-Harper Hospital,Vadodara,740,20
+H092,"Callahan, Lewis and Anderson Hospital",Kolkata,176,22
+H093,Wallace PLC Hospital,Pune,570,21
+H094,"Thornton, Booth and Reed Hospital",Mumbai,217,15
+H095,"Scott, Black and Murphy Hospital",Indore,173,15
+H096,Saunders PLC Hospital,Mumbai,683,22
+H097,"Foster, Cooley and Snyder Hospital",Jaipur,748,5
+H098,"Cummings, Gonzalez and Lee Hospital",Vadodara,426,18
+H099,Diaz-George Hospital,Jaipur,269,9
+H100,"Williams, Rangel and Robinson Hospital",Vadodara,148,17
+H101,"Griffith, Frazier and Fields Hospital",Delhi,148,15
+H102,"Hughes, Moore and Skinner Hospital",Guwahati,335,22
+H103,"Holloway, Smith and Mccormick Hospital",Lucknow,262,19
+H104,Johnson PLC Hospital,Delhi,812,18
+H105,Daniel Group Hospital,Pune,924,11
+H106,Gray Ltd Hospital,Hyderabad,596,10
+H107,"Collins, Pratt and Giles Hospital",Jaipur,382,16
+H108,"Bailey, Webb and Le Hospital",Bangalore,673,11
+H109,James-Chapman Hospital,Vishakhapatnam,277,16
+H110,Hayes-Scott Hospital,Vishakhapatnam,183,8
+H111,"Brown, Evans and Ward Hospital",Chennai,944,9
+H112,"Hooper, Rodriguez and Jordan Hospital",Chennai,658,7
+H113,"Gates, Johnson and Snyder Hospital",Delhi,877,21
+H114,Marshall-Williams Hospital,Ranchi,270,16
+H115,Frazier and Sons Hospital,Pune,729,24
+H116,Martinez-Edwards Hospital,Coimbatore,264,15
+H117,"Boone, Payne and Salinas Hospital",Delhi,450,25
+H118,Reyes-Richmond Hospital,Nagpur,292,14
+H119,Kelley Inc Hospital,Kolkata,856,8
+H120,Rodriguez PLC Hospital,Chennai,608,25
