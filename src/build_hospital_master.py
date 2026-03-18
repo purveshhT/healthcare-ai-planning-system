@@ -1,58 +1,58 @@
 import pandas as pd
 
-# Load raw files
+# Load files
 hospital_df = pd.read_csv("data/raw/hospital_data_large.csv")
 budget_df = pd.read_csv("data/raw/budget_allocation_large.csv")
-directory_df = pd.read_csv("data/raw/hospital_directory.csv", low_memory=False)
 
-# Standardize names
+# Standardize hospital names
 hospital_df["hospital_name_clean"] = hospital_df["hospital_name"].astype(str).str.strip().str.lower()
 budget_df["hospital_name_clean"] = budget_df["hospital_name"].astype(str).str.strip().str.lower()
-directory_df["hospital_name_clean"] = directory_df["Hospital_Name"].astype(str).str.strip().str.lower()
 
-# Merge hospital + budget
+print("Original hospital rows:", len(hospital_df))
+print("Duplicate hospital names before cleaning:", hospital_df.duplicated(subset=["hospital_name_clean"]).sum())
+
+# Remove duplicate hospital records
+hospital_df = hospital_df.drop_duplicates(subset=["hospital_name_clean"])
+
+print("Hospital rows after cleaning:", len(hospital_df))
+print("Duplicate hospital names after cleaning:", hospital_df.duplicated(subset=["hospital_name_clean"]).sum())
+
+# Keep only needed budget columns
+budget_df = budget_df[
+    ["hospital_name_clean", "year", "budget_allocated", "budget_spent", "remark"]
+].copy()
+
+print("Original budget rows:", len(budget_df))
+print("Duplicate hospital-year rows before cleaning:",
+      budget_df.duplicated(subset=["hospital_name_clean", "year"]).sum())
+
+# Remove duplicate hospital-year records
+budget_df = budget_df.drop_duplicates(subset=["hospital_name_clean", "year"])
+
+print("Budget rows after cleaning:", len(budget_df))
+print("Duplicate hospital-year rows after cleaning:",
+      budget_df.duplicated(subset=["hospital_name_clean", "year"]).sum())
+
+# Merge hospital + cleaned budget
 hospital_master = pd.merge(
     hospital_df,
     budget_df,
     on="hospital_name_clean",
-    how="left",
-    suffixes=("_hospital", "_budget")
-)
-
-# Merge with hospital directory
-hospital_master = pd.merge(
-    hospital_master,
-    directory_df[
-        [
-            "hospital_name_clean",
-            "State",
-            "District",
-            "Specialties",
-            "Number_Doctor",
-            "Total_Num_Beds"
-        ]
-    ],
-    on="hospital_name_clean",
     how="left"
 )
-
-# Rename columns
-hospital_master = hospital_master.rename(columns={
-    "hospital_name_hospital": "hospital_name",
-    "State": "state",
-    "District": "district",
-    "Number_Doctor": "number_doctor",
-    "Total_Num_Beds": "total_num_beds",
-    "Specialties": "specialties"
-})
 
 # Derived features
 hospital_master["utilization_ratio"] = hospital_master["budget_spent"] / hospital_master["budget_allocated"]
 hospital_master["remaining_budget"] = hospital_master["budget_allocated"] - hospital_master["budget_spent"]
+hospital_master["budget_per_bed"] = hospital_master["budget_allocated"] / hospital_master["bed_capacity"]
+hospital_master["budget_per_department"] = hospital_master["budget_allocated"] / hospital_master["department_count"]
 
 # Save
 hospital_master.to_csv("data/processed/hospital_master.csv", index=False)
 
-print("hospital_master.csv created successfully")
+print("\nhospital_master.csv created successfully")
 print(hospital_master.head())
 print("Shape:", hospital_master.shape)
+
+print("\nDuplicate hospital-year rows in hospital_master:")
+print(hospital_master.duplicated(subset=["hospital_name", "year"]).sum())
