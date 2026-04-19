@@ -4,3 +4,6 @@ scikit-learn
 numpy
 matplotlib
 plotly
+google-genai
+python-dotenv
+requests

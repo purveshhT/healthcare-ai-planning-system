@@ -1,18 +1,32 @@
+import os
 import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+# --- AI ASSISTANT INTEGRATION (new) ---
+# Import the self-contained chatbot module.  No existing code is modified.
+from chatbot import render_chatbot_page
+
 st.set_page_config(page_title="Healthcare AI Planning System", layout="wide")
+
+# --- Path anchor: resolve data/ relative to project root, not the CWD ---
+# src/app.py → parent is src/ → parent of that is the project root
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data", "processed")
+
+def data(filename: str) -> str:
+    """Return the absolute path to a file inside data/processed/."""
+    return os.path.join(DATA_DIR, filename)
 
 # ----------------------------
 # Load data
 # ----------------------------
 @st.cache_data
 def load_state_data():
-    state_features = pd.read_csv("data/processed/state_features.csv")
-    budget_predictions = pd.read_csv("data/processed/state_budget_predictions.csv")
-    recommendations = pd.read_csv("data/processed/state_recommendations.csv")
-    genai_reports = pd.read_csv("data/processed/genai_state_reports.csv")
+    state_features = pd.read_csv(data("state_features.csv"))
+    budget_predictions = pd.read_csv(data("state_budget_predictions.csv"))
+    recommendations = pd.read_csv(data("state_recommendations.csv"))
+    genai_reports = pd.read_csv(data("genai_state_reports.csv"))
 
     df = state_features.merge(budget_predictions, on="state", how="left")
     df = df.merge(recommendations, on="state", how="left")
@@ -21,19 +35,19 @@ def load_state_data():
 
 @st.cache_data
 def load_hospital_data():
-    return pd.read_csv("data/processed/hospital_master.csv")
+    return pd.read_csv(data("hospital_master.csv"))
 
 @st.cache_data
 def load_vaccine_data():
-    return pd.read_csv("data/processed/vaccine_predictions_2028_29.csv")
+    return pd.read_csv(data("vaccine_predictions_2028_29.csv"))
 
 @st.cache_data
 def load_resource_data():
-    return pd.read_csv("data/processed/resource_predictions_2028_29.csv")
+    return pd.read_csv(data("resource_predictions_2028_29.csv"))
 
 @st.cache_data
 def load_budget_breakdown():
-    return pd.read_csv("data/processed/budget_breakdown_2028_29.csv")
+    return pd.read_csv(data("budget_breakdown_2028_29.csv"))
 
 state_df = load_state_data()
 hospital_df = load_hospital_data()
@@ -54,7 +68,8 @@ page = st.sidebar.radio(
         "Vaccine & Supply Chain",
         "2028-29 Predictions",
         "Budget Recommendations",
-        "Downloads"
+        "Downloads",
+        "AI Assistant",        # ← new: Gemini-powered chatbot
     ]
 )
 
@@ -446,31 +461,44 @@ elif page == "Downloads":
     st.title("Download Processed Outputs")
 
     st.markdown("### State-level files")
-    with open("data/processed/state_master.csv", "rb") as f:
+    with open(data("state_master.csv"), "rb") as f:
         st.download_button("Download state_master.csv", f, file_name="state_master.csv")
 
-    with open("data/processed/state_features.csv", "rb") as f:
+    with open(data("state_features.csv"), "rb") as f:
         st.download_button("Download state_features.csv", f, file_name="state_features.csv")
 
-    with open("data/processed/state_budget_predictions.csv", "rb") as f:
+    with open(data("state_budget_predictions.csv"), "rb") as f:
         st.download_button("Download state_budget_predictions.csv", f, file_name="state_budget_predictions.csv")
 
-    with open("data/processed/state_recommendations.csv", "rb") as f:
+    with open(data("state_recommendations.csv"), "rb") as f:
         st.download_button("Download state_recommendations.csv", f, file_name="state_recommendations.csv")
 
-    with open("data/processed/genai_state_reports.csv", "rb") as f:
+    with open(data("genai_state_reports.csv"), "rb") as f:
         st.download_button("Download genai_state_reports.csv", f, file_name="genai_state_reports.csv")
 
     st.markdown("### Hospital-level files")
-    with open("data/processed/hospital_master.csv", "rb") as f:
+    with open(data("hospital_master.csv"), "rb") as f:
         st.download_button("Download hospital_master.csv", f, file_name="hospital_master.csv")
 
     st.markdown("### 2028-29 Prediction Files")
-    with open("data/processed/vaccine_predictions_2028_29.csv", "rb") as f:
+    with open(data("vaccine_predictions_2028_29.csv"), "rb") as f:
         st.download_button("Download vaccine_predictions_2028_29.csv", f, file_name="vaccine_predictions_2028_29.csv")
 
-    with open("data/processed/resource_predictions_2028_29.csv", "rb") as f:
+    with open(data("resource_predictions_2028_29.csv"), "rb") as f:
         st.download_button("Download resource_predictions_2028_29.csv", f, file_name="resource_predictions_2028_29.csv")
 
-    with open("data/processed/budget_breakdown_2028_29.csv", "rb") as f:
+    with open(data("budget_breakdown_2028_29.csv"), "rb") as f:
         st.download_button("Download budget_breakdown_2028_29.csv", f, file_name="budget_breakdown_2028_29.csv")
+
+# ----------------------------
+# Page 8: AI Assistant  (new — Gemini chatbot)
+# Does NOT touch any existing page logic above.
+# ----------------------------
+elif page == "AI Assistant":
+    render_chatbot_page(
+        state_df=state_df,
+        hospital_df=hospital_df,
+        vaccine_df=vaccine_df_pred,
+        resource_df=resource_df_pred,
+        budget_df=budget_breakdown_df,
+    )
